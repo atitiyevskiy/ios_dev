@@ -12,6 +12,7 @@
 		F4C504B32005EE030092C12B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F4C504B12005EE030092C12B /* Main.storyboard */; };
 		F4C504B52005EE030092C12B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F4C504B42005EE030092C12B /* Assets.xcassets */; };
 		F4C504B82005EE030092C12B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F4C504B62005EE030092C12B /* LaunchScreen.storyboard */; };
+		F4C504E42005F1EE0092C12B /* hustle-on.wav in Resources */ = {isa = PBXBuildFile; fileRef = F4C504E32005F1EE0092C12B /* hustle-on.wav */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		F4C504B42005EE030092C12B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F4C504B72005EE030092C12B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F4C504B92005EE030092C12B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F4C504E32005F1EE0092C12B /* hustle-on.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "hustle-on.wav"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +56,7 @@
 		F4C504AC2005EE030092C12B /* sasha-test-app */ = {
 			isa = PBXGroup;
 			children = (
+				F4C504E32005F1EE0092C12B /* hustle-on.wav */,
 				F4C504AD2005EE030092C12B /* AppDelegate.swift */,
 				F4C504AF2005EE030092C12B /* ViewController.swift */,
 				F4C504B12005EE030092C12B /* Main.storyboard */,
@@ -123,6 +126,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F4C504E42005F1EE0092C12B /* hustle-on.wav in Resources */,
 				F4C504B82005EE030092C12B /* LaunchScreen.storyboard in Resources */,
 				F4C504B52005EE030092C12B /* Assets.xcassets in Resources */,
 				F4C504B32005EE030092C12B /* Main.storyboard in Resources */,
