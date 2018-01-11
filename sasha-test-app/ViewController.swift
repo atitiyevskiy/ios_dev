@@ -7,6 +7,8 @@
 //
 
 import UIKit
+import AVFoundation
+
 
 class ViewController: UIViewController {
 
@@ -14,21 +16,27 @@ class ViewController: UIViewController {
     @IBOutlet weak var powerButton: UIButton!
     @IBOutlet weak var cloudView: UIView!
     @IBOutlet weak var rocket: UIImageView!
-    @IBOutlet weak var orangeOval: UIImageView!
     @IBOutlet weak var modeLabel: UILabel!
     @IBOutlet weak var onLabel: UILabel!
     
     
+    var player: AVAudioPlayer!
     
     
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
-    }
-
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
+        
+        //setting url path for the audio file
+        let path = Bundle.main.path(forResource: "hustle-on", ofType: ".wav")!
+        let url = URL(fileURLWithPath: path)
+        do {
+            player = try AVAudioPlayer(contentsOf: url)
+            player.prepareToPlay()
+        } catch let error as NSError {
+            print(error.description)
+        }
+    
     }
 
     @IBAction func powerButtonPressed(_ sender: Any) {
@@ -37,7 +45,19 @@ class ViewController: UIViewController {
         blueBackgorund.isHidden = true
         powerButton.isHidden = true
         
+        player.play()
+        
+        UIView.animate(withDuration: 3, animations: {
+            self.rocket.frame = CGRect(x: 0, y: 140, width:354, height: 400)
+        })  {(finished) in
+            self.modeLabel.isHidden = false
+            self.onLabel.isHidden = false
+        }
+        }
+        
+        
+        
     }
     
-}
+
 
