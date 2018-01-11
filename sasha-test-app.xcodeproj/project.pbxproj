@@ -13,7 +13,6 @@
 		F4C504B52005EE030092C12B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F4C504B42005EE030092C12B /* Assets.xcassets */; };
 		F4C504B82005EE030092C12B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F4C504B62005EE030092C12B /* LaunchScreen.storyboard */; };
 		F4C504E42005F1EE0092C12B /* hustle-on.wav in Resources */ = {isa = PBXBuildFile; fileRef = F4C504E32005F1EE0092C12B /* hustle-on.wav */; };
-		F4C504E620073BF70092C12B /* Test.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4C504E520073BF70092C12B /* Test.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -25,7 +24,6 @@
 		F4C504B72005EE030092C12B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F4C504B92005EE030092C12B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F4C504E32005F1EE0092C12B /* hustle-on.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "hustle-on.wav"; sourceTree = "<group>"; };
-		F4C504E520073BF70092C12B /* Test.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Test.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -65,7 +63,6 @@
 				F4C504B42005EE030092C12B /* Assets.xcassets */,
 				F4C504B62005EE030092C12B /* LaunchScreen.storyboard */,
 				F4C504B92005EE030092C12B /* Info.plist */,
-				F4C504E520073BF70092C12B /* Test.swift */,
 			);
 			path = "sasha-test-app";
 			sourceTree = "<group>";
@@ -145,7 +142,6 @@
 			files = (
 				F4C504B02005EE030092C12B /* ViewController.swift in Sources */,
 				F4C504AE2005EE030092C12B /* AppDelegate.swift in Sources */,
-				F4C504E620073BF70092C12B /* Test.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
