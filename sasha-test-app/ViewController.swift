@@ -48,7 +48,7 @@ class ViewController: UIViewController {
         player.play()
         
         UIView.animate(withDuration: 3, animations: {
-            self.rocket.frame = CGRect(x: 0, y: 140, width:354, height: 400)
+            self.rocket.frame = CGRect(x: 0, y: 190, width:400, height: 400)
         })  {(finished) in
             self.modeLabel.isHidden = false
             self.onLabel.isHidden = false
